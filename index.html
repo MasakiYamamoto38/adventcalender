@@ -16,7 +16,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>ホーム</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=48628799" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=33511576" id="pagesheet"/>
    </head>
  <body>
 
@@ -28,9 +28,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
      <div class="clip_frame grpelem" id="u119"><!-- image -->
       <img class="block" id="u119_img" src="images/%e3%83%9a%e3%83%bc%e3%82%b9%e3%83%88%e3%81%97%e3%81%9f%e7%94%bb%e5%83%8f%201620x258.png?crc=463254012" alt="" width="739" height="118"/>
-     </div>
-     <div class="clip_frame grpelem" id="u128"><!-- image -->
-      <img class="block" id="u128_img" src="images/%e3%83%9a%e3%83%bc%e3%82%b9%e3%83%88%e3%81%97%e3%81%9f%e7%94%bb%e5%83%8f%201920x80.jpg?crc=4269697676" alt="" width="1224" height="51"/>
      </div>
      <div class="rounded-corners clearfix grpelem" id="u140"><!-- column -->
       <div class="clearfix colelem" id="u147-4"><!-- content -->
@@ -44,8 +41,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        <p>※ただ、Webページ本体は１時間くらいで作ったものなので、いい感じじゃないかもです。</p>
       </div>
      </div>
-     <div class="clearfix grpelem" id="u143-4"><!-- content -->
-      <h1>2017年12月12日のブログ記事</h1>
+     <div class="browser_width grpelem" id="u382-bw">
+      <div id="u382"><!-- group -->
+       <div class="clearfix" id="u382_align_to_page">
+        <div class="clearfix grpelem" id="u385-4"><!-- content -->
+         <h1>2017年12月12日のブログ記事</h1>
+        </div>
+       </div>
+      </div>
      </div>
     </div>
     <div class="clip_frame colelem" id="u162"><!-- image -->
@@ -177,7 +180,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <p>本当に必要なコーディング・デザインに集中するためにも、AdobeXD + Adobe Muse + Github Pagesおすすめです。</p>
      <p>&nbsp;</p>
     </div>
-    <div class="verticalspacer" data-offset-top="3773" data-content-above-spacer="3773" data-content-below-spacer="823"></div>
+    <div class="verticalspacer" data-offset-top="3773" data-content-above-spacer="3773" data-content-below-spacer="153"></div>
    </div>
   </div>
   <!-- Other scripts -->
@@ -195,6 +198,8 @@ var muse_init=function(){require.config({baseUrl:""});require(["jquery","museuti
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */

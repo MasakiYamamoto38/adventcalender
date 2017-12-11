@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="masakiyamamoto38.github.io/adventcalender" resolutions="1x" timestamp="1512999260161">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="masakiyamamoto38.github.io/adventcalender" resolutions="1x" timestamp="1512999741540">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="48628799" ref="index"/>
+    <file name="index.css" crc="33511576" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -16,9 +16,6 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="ペーストした画像 1620x258.png" crc="463254012" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ペーストした画像 1920x80.jpg" crc="4269697676" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="ペーストした画像 1495x113.png" crc="4122880359" seo="true" ref="index">
@@ -46,5 +43,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="313698131" seo="true" mt="1512999110554" redirect="true"/>
+  <file name="index.html" crc="4289537309" seo="true" mt="1512999729239" redirect="true"/>
 </manifest>
